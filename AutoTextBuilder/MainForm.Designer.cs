@@ -142,7 +142,9 @@
             this.Controls.Add(this.TextBox_Output);
             this.Controls.Add(this.LanguageUsedOutput);
             this.Controls.Add(this.TextBox_Input);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Translator";
